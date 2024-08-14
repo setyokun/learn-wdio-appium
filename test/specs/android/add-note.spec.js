@@ -13,7 +13,7 @@ describe('Add Notes', () => {
 
     // add note title
     await $('//*[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/edit_title"]')
-      .addValue("Fav Anime List");
+      .addValue("Anime List");
 
     // add note body
     await $('//*[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/edit_note"]')
